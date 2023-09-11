@@ -1,0 +1,56 @@
+.card{
+    background-color: rgb(235, 221, 221);
+    margin: 5px;
+    display: flex;
+    width: 60vw;
+    padding: 10px;
+    height: 200px;
+    border-radius: 10px;
+}
+.imagecontainer{
+width: 30%;
+overflow: hidden;
+border-radius: 20px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.imagecontainer>img{
+    object-fit:cover;
+   width: 100%;
+   height: 100%;
+    
+
+}
+.detailcontainer{
+width: 70%;
+display: flex;
+align-items: flex-start;
+justify-content: center;
+flex-direction: column;
+padding: 10px;
+position: relative;
+font-size: large;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: 400;
+}
+.button{
+    position: absolute;
+    background: #1aca03;
+    bottom: 20px;
+    right: 10px;
+    padding: 10px;
+    display: flex;
+    border-radius: 7px;
+
+}
+.dateicon{
+    display: flex;
+}
+.space{
+    padding-left: 10px;
+}
+.respace{
+    padding-right: 10px;
+}
+    

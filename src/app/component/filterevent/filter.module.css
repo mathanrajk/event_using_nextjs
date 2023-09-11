@@ -1,0 +1,26 @@
+.main{
+    width: 100vw;
+}
+.formchild{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(79, 79, 252);
+}
+.label{
+    padding: 0 30px;
+    color: antiquewhite;
+    font-size: large;
+    font-weight: bolder;
+}
+.year{
+    padding: 10px 0;
+}
+.button{
+    background-color: rgb(213, 216, 17);
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid black;
+}
